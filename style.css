@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_content {
+    font-weight: 400px;
+    font-size: 80px;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 30px;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+
+button[type="reset"] {
+    width: 100px;
+    height: 30px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+button[type="reset"]:hover {
+    color: white;
+    background-color: black;
+}
+
+.content_showcase {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+ul li{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:7px 0;
+    
+}
+.close {
+    display: flex;
+    align-self: flex-end;
+    padding: 9px 9px;
+    background-color: red;
+  }
